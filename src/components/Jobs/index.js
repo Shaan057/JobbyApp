@@ -27,6 +27,7 @@ class Jobs extends Component {
     searchInput: '',
     activeSalaryRangeId: '',
     employmentTypesChecked: [],
+    activeLocations: [],
   }
 
   componentDidMount() {
@@ -50,6 +51,21 @@ class Jobs extends Component {
 
   updateSalaryRangeId = activeSalaryRangeId =>
     this.setState({activeSalaryRangeId}, this.getJobs)
+
+  updateLocationsList = city => {
+    const {activeLocations} = this.state
+    if (!activeLocations.includes(city)) {
+      this.setState(prev => ({
+        activeLocations: [...prev.activeLocations, city],
+      }))
+    } else {
+      this.setState(prev => ({
+        activeLocations: [
+          ...prev.activeLocations.filter(each => each !== city),
+        ],
+      }))
+    }
+  }
 
   getJobs = async () => {
     this.setState({jobsApiStatus: apiStatusConstants.inProgress})
@@ -166,6 +182,7 @@ class Jobs extends Component {
           activeSalaryRangeId={activeSalaryRangeId}
           updateEmploymentTypesChecked={this.updateEmploymentTypesChecked}
           employmentTypesChecked={employmentTypesChecked}
+          updateLocationsList={this.updateLocationsList}
         />
       </div>
     )
@@ -186,12 +203,16 @@ class Jobs extends Component {
   )
 
   renderJobsList = () => {
-    const {jobsList} = this.state
+    const {jobsList, activeLocations} = this.state
+    const filteredJobs =
+      activeLocations.length !== 0
+        ? jobsList.filter(each => activeLocations.includes(each.location))
+        : [...jobsList]
     return (
       <>
-        {jobsList.length > 0 ? (
+        {filteredJobs.length > 0 ? (
           <ul className="jobs-list">
-            {jobsList.map(eachJob => (
+            {filteredJobs.map(eachJob => (
               <JobCard key={eachJob.id} jobDetails={eachJob} />
             ))}
           </ul>
@@ -250,6 +271,8 @@ class Jobs extends Component {
         <Header />
         <div className="jobs-page">
           {this.renderSideBar()}
+          <hr className="separator in-lg-none" />
+
           <div className="jobs-container">
             {this.renderSearchBar('largeSearchBar')}
             {this.renderJobsBasedOnAPiStatus()}

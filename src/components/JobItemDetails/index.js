@@ -65,6 +65,11 @@ class JobItemDetails extends Component {
     return {updatedJobDetails, similarJobs}
   }
 
+  onClickBackButton = () => {
+    const {history} = this.props
+    history.push('/jobs')
+  }
+
   getJobItemDetails = async () => {
     this.setState({jobDetailsApiStatus: apiStatusConstants.inProgress})
     const {match} = this.props
@@ -203,6 +208,13 @@ class JobItemDetails extends Component {
             <SimilarJobCard key={eachJob.id} jobDetails={eachJob} />
           ))}
         </ul>
+        <button
+          className="back-button"
+          type="button"
+          onClick={this.onClickBackButton}
+        >
+          Back
+        </button>
       </div>
     )
   }

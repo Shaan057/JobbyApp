@@ -92,6 +92,7 @@
 }
 .job-description-card {
   margin: 0;
+  text-align: justify;
   font-family: 'Roboto';
   color: #ffffff;
   font-weight: 300;

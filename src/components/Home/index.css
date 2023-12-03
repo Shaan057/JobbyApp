@@ -21,7 +21,7 @@
   }
 }
 .home-page-content {
-    max-width: 500px;
+  max-width: 500px;
 }
 .home-heading {
   color: #ffffff;
@@ -32,7 +32,7 @@
 @media screen and (min-width: 768px) {
   .home-heading {
     font-size: 38px;
-    font-weight: 800;    
+    font-weight: 800;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -49,14 +49,14 @@
   line-height: 1.5;
 }
 @media screen and (min-width: 768px) {
-    .home-description{
-        font-size: 18px;
-    }
+  .home-description {
+    font-size: 18px;
+  }
 }
 @media screen and (min-width: 1200px) {
-    .home-description{
-        font-size: 22px;
-    }
+  .home-description {
+    font-size: 22px;
+  }
 }
 .find-jobs-button {
   background-color: #6366f1;
@@ -70,15 +70,20 @@
   outline: none;
   margin-top: 10px;
 }
+
+.find-jobs-button:hover {
+  color: #6366f1;
+  background-color: white;
+}
 @media screen and (min-width: 768px) {
-    .find-jobs-button{
-        font-size: 15px;
-        padding: 12px 20px;
-    }
+  .find-jobs-button {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
 }
 @media screen and (min-width: 1200px) {
-    .find-jobs-button{
-        font-size: 18px;
-        padding: 14px 22px;
-    }
+  .find-jobs-button {
+    font-size: 18px;
+    padding: 14px 22px;
+  }
 }
