@@ -1,3 +1,4 @@
+/* eslint-enable jsx-a11y/control-has-associated-label */
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import {BsSearch} from 'react-icons/bs'
