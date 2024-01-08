@@ -358,30 +358,6 @@ Returns a response containing the job details
 
 </details>
 
-<details>
-<summary>Colors</summary>
-
-<br/>
-<div style="background-color: #64748b; width: 150px; padding: 10px; color: white">Hex: #64748b</div>
-<div style="background-color: #4f46e5; width: 150px; padding: 10px; color: white">Hex: #4f46e5</div>
-<div style="background-color: #f8fafc; width: 150px; padding: 10px; color: black">Hex: #f8fafc</div>
-<div style="background-color: #272727; width: 150px; padding: 10px; color: white">Hex: #272727</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #b6c5ff; width: 150px; padding: 10px; color: black">Hex: #b6c5ff</div>
-<div style="background-color: #6366f1; width: 150px; padding: 10px; color: white">Hex: #6366f1</div>
-<div style="background-color: #2c364c; width: 150px; padding: 10px; color: white">Hex: #2c364c</div>
-<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
-<div style="background-color: #f1f5f9; width: 150px; padding: 10px; color: black">Hex: #f1f5f9</div>
-<div style="background-color: #fbbf24; width: 150px; padding: 10px; color: white">Hex: #fbbf24</div>
-<div style="background-color: #202020; width: 150px; padding: 10px; color: white">Hex: #202020</div>
-<div style="background-color: #cbd5e1; width: 150px; padding: 10px; color: black">Hex: #cbd5e1</div>
-<div style="background-color: #7e858e; width: 150px; padding: 10px; color: black">Hex: #7e858e</div>
-<div style="background-color: #121212; width: 150px; padding: 10px; color: white">Hex: #121212</div>
-<div style="background-color: #475569; width: 150px; padding: 10px; color: white">Hex: #475569</div>
-<div style="background-color: #ff0b37; width: 150px; padding: 10px; color: white">Hex: #ff0b37</div>
-<br/>
-</details>
-
 ### Demo
 
 ### [Link](https://jobbysappshaan.netlify.app/)
