@@ -350,11 +350,11 @@ Returns a response containing the job details
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/home-sm-bg.png](https://assets.ccbp.in/frontend/react-js/home-sm-bg.png)
-- [https://assets.ccbp.in/frontend/react-js/home-lg-bg.png](https://assets.ccbp.in/frontend/react-js/home-lg-bg.png)
-- [https://assets.ccbp.in/frontend/react-js/profile-bg.png](https://assets.ccbp.in/frontend/react-js/profile-bg.png)
-- [https://assets.ccbp.in/frontend/react-js/logo-img.png](https://assets.ccbp.in/frontend/react-js/logo-img.png)
-- [https://assets.ccbp.in/frontend/react-js/jobby-app-not-found-img.png](https://assets.ccbp.in/frontend/react-js/jobby-app-not-found-img.png)
+- [home-sm-bg](https://assets.ccbp.in/frontend/react-js/home-sm-bg.png)
+- [home-lg-bg](https://assets.ccbp.in/frontend/react-js/home-lg-bg.png)
+- [profile-bg](https://assets.ccbp.in/frontend/react-js/profile-bg.png)
+- [logo-img](https://assets.ccbp.in/frontend/react-js/logo-img.png)
+- [not-found](https://assets.ccbp.in/frontend/react-js/jobby-app-not-found-img.png)
 
 </details>
 
