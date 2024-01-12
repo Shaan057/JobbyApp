@@ -360,4 +360,6 @@ Returns a response containing the job details
 
 ### Demo
 
-### [Link](https://jobbysappshaan.netlify.app/)
+### [vercel](https://jobby-cxeyxcoy2-shaan057s-projects.vercel.app/)
+
+### [netlify](https://jobbysappshaan.netlify.app/)
